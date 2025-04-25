@@ -124,3 +124,15 @@ input{
 .icon{
     font-size: 45px;
 }
+
+@media (max-width:375px){
+    .form::-webkit-scrollbar-thumb{
+        display: none;
+    }
+}
+
+@media (max-width:450px){
+    .icon{
+        font-size: 10.3vw;
+    }
+}
